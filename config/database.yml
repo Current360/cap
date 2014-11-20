@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: cap_production
-  username: cap
+  username: cmgeeks
+  socket: /var/lib/mysql/mysql.sock
   password: <%= ENV['CAP_DATABASE_PASSWORD'] %>
