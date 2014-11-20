@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 
 
 gem 'capistrano', '~> 3.2.0'
-
+gem 'capistrano-rails', '~> 1.1'
 
 
 # Use ActiveModel has_secure_password
