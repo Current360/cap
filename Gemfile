@@ -29,10 +29,15 @@ gem 'spring',        group: :development
 
 
 #DEPLOYMENT RELATED STUFF
-gem 'capistrano', '~> 3.2.0'
-gem 'capistrano-rails', '~> 1.1'
+
+#loads env vars into application
 gem 'dotenv'
 gem 'dotenv-deployment', require: 'dotenv/deployment'
+
+#automate deployment
+gem 'capistrano', '~> 3.2.0'
+gem 'capistrano-rails', '~> 1.1'
+
 
 
 # Use ActiveModel has_secure_password
