@@ -32,7 +32,7 @@ gem 'spring',        group: :development
 
 #loads env vars into application
 gem 'dotenv'
-
+gem 'dotenv-deployment', require: 'dotenv/deployment'
 #automate deployment
 gem 'capistrano', '~> 3.2.0'
 gem 'capistrano-rails', '~> 1.1'
