@@ -27,8 +27,12 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
+
+#DEPLOYMENT RELATED STUFF
 gem 'capistrano', '~> 3.2.0'
 gem 'capistrano-rails', '~> 1.1'
+gem 'dotenv'
+gem 'dotenv-deployment', require: 'dotenv/deployment'
 
 
 # Use ActiveModel has_secure_password
