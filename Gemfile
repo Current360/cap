@@ -27,9 +27,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 
+gem 'better_errors'
+
 
 #DEPLOYMENT RELATED STUFF
-
 #loads env vars into application
 gem 'dotenv'
 gem 'dotenv-deployment', require: 'dotenv/deployment'
