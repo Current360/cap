@@ -1,2 +1,0 @@
-sudo apachectl configtest
-sudo apachectl restart
