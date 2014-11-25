@@ -40,7 +40,8 @@ namespace :deploy do
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
       # Your restart mechanism here, for example:
-      execute :touch, release_path.join('restart.txt')
+      puts "NOW RUNNING RESTART \n"
+      execute :touch, release_path.join('/home/websites/cap/current/restart.txt')
     end
   end
 
